@@ -1,0 +1,88 @@
+:root{
+    --blue: rgb(33, 30, 56);
+}
+body {
+    height: 842px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(58, 56, 56);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    background-color: white;
+    height: 1110px;
+    width: 800px;
+    margin: 10px;
+}
+h1{
+    color: var(--blue);
+}
+.panel1{
+    padding: 30px;
+    background-color: var(--blue);
+    width: 20%;
+    color: white;
+}
+main .panel1 img{
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
+main .panel1 .personal-details{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+main .panel1 .personal-details span{
+    font-size: 16px;
+}
+main .panel1 .skills p{
+    margin-top: -10px;
+}
+main .panel1 .skills span{
+    font-size: 8px;
+}
+main .panel1 .p-details p{
+    
+}
+main .panel1 .profession{
+    color: white;
+    opacity: 0.7;
+    margin-top: -20px;
+    font-size: 12px;
+}
+main .panel1 .details{
+    margin-top: 30px;
+    font-size: 14px;
+}
+main .panel1 .details span{
+    margin-right: 10px;
+}
+
+
+
+.panel2{
+    padding: 30px;
+    width: 70%;
+}
+.panel2 .about p{
+    margin-top: 10px;
+    margin-bottom: 20px;    
+    text-align: justify;
+    text-indent: 50px;
+}
+.panel2 .education .school{
+    padding:20px;
+    padding-top: 0;
+}
+.panel2 .education .school h4{
+    margin-bottom: -10px;
+}
+.panel2 .education .school .year{
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+.panel2 .objectives p{
+    text-indent: 50px;
+}
